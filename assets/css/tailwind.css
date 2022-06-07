@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply bg-gray-200 font-rubik
+}
+
+.liner-gradient {
+    @apply bg-gradient-to-r from-red-700 via-red-600 to-red-700;
+}
+
+.vertical-gradient {
+    @apply bg-gradient-to-b from-red-700 via-red-600 to-red-700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply text-gray-700 font-rubik
+}
